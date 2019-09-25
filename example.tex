@@ -1,0 +1,45 @@
+% !TEX program = xelatex
+
+\documentclass{algorithmtemplate}
+
+\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{framed}
+\usepackage{listings}
+
+\renewcommand{\xuehao}{1000000000}
+\renewcommand{\xingming}{王大明}
+\renewcommand{\cishu}{1}
+
+\begin{document}
+
+\maketitle
+
+\section{}
+
+这是第一题的解法
+
+
+\begin{algorithm}[H]
+\KwResult{Write here the result }
+initialization\;
+\While{While condition}{
+    instructions\;
+    \eIf{condition}{
+        进行这样的操作\;
+        instructions2\;
+    }{
+        instructions3\;
+    }
+}
+\caption{How to write algorithms}
+\end{algorithm}
+
+
+\section{}
+
+这是第二题的解法
+
+\lstinputlisting[language=c]{example.c}
+
+
+\end{document}
